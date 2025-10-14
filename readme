@@ -1,0 +1,37 @@
+#antes de ejecutar los requirements crear el entorno virual
+
+
+# 1. Crear el entorno virtual 
+python -m venv venv
+
+# 2. Activar el entorno virtual
+venv\Scripts\activate
+
+# 3. Instalar dependencias desde requirements.txt
+pip install -r requirements.txt
+
+
+
+
+
+
+
+# Si pip no le esta funcionando  está desactualizado, actualizarlo con el siguiente comando
+# python.exe -m pip install --upgrade pip
+
+
+
+
+
+
+
+#y desde linux 
+
+# 1. Crear el entorno virtual 
+python3 -m venv venv
+
+# 2. Activar el entorno virtual
+source venv/bin/activate
+
+# 3. Instalar dependencias desde requirements.txt
+pip install -r requirements.txt
